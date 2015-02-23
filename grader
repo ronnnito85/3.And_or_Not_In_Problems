@@ -1,0 +1,17 @@
+Min_points = int(0)
+Max_points = int(100)
+x = input("Enter points from test: ")
+x = int(x)
+
+if x <=50:
+    print("Lower 2")
+elif x >=51 and x <= 60:
+    print("Middle 3")    
+elif x >=61 and x <= 70:
+    print("Good  4")
+elif x >=71 and x <= 80:
+    print("Very good 5")
+elif x >=81 and x <= 90:
+    print("Excellently 6")
+elif x == 100:
+    print("Very Excellently 7")
